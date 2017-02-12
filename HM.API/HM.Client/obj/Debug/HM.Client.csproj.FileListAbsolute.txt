@@ -1,0 +1,6 @@
+C:\www\Personal\_Training\WebAPI\HM.API\HM.Client\bin\HM.Client.dll.config
+C:\www\Personal\_Training\WebAPI\HM.API\HM.Client\bin\HM.Client.dll
+C:\www\Personal\_Training\WebAPI\HM.API\HM.Client\bin\HM.Client.pdb
+C:\www\Personal\_Training\WebAPI\HM.API\HM.Client\obj\Debug\HM.Client.csprojResolveAssemblyReference.cache
+C:\www\Personal\_Training\WebAPI\HM.API\HM.Client\obj\Debug\HM.Client.dll
+C:\www\Personal\_Training\WebAPI\HM.API\HM.Client\obj\Debug\HM.Client.pdb

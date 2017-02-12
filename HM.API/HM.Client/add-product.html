@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Add product</title>
+    <style>
+        div {
+            margin: 10px;
+            overflow: hidden;
+        }
+
+        label {
+            display: inline-block;
+            vertical-align: middle;
+            min-width: 150px;
+        }
+
+        textarea, input {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .success {
+            display: none;
+        }
+        .success em {
+            font-style: italic;
+            color: green;
+            font-weight: bold;
+            
+        }
+    </style>
+</head>
+<body>
+<h1>Fill in the form below to add product </h1>
+<form id="addProduct">
+    <fieldset>
+        <div>
+            <label>Product Description</label>
+            <textarea name="productDescription" cols="50" rows="6" id="productDescription"></textarea>
+        </div>
+        <div>
+            <label>Product Image Url</label>
+            <input type="text" value="" id="productImage"/>
+        </div>
+
+        <div>
+            <label>Product Price</label>
+            <input type="number" value="" id="productPrice"/>
+        </div>
+
+        <div>
+            <label>Product Stock</label>
+            <input type="number" value="" id="productStock"/>
+        </div>
+
+        <div>
+            <input type="submit" value="Add a Product"/>
+        </div>
+
+    </fieldset>
+</form>
+
+    <a href="index.html">Back to Product Listing</a>
+
+<div class="success">
+    <em>Successfully Added a Product</em>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+    <script src="/app/js/addProduct.js"></script>
+</body>
+</html>
