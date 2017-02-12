@@ -65,7 +65,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="add-product.html" />
+    <Content Include="app\js\addProduct.js" />
+    <Content Include="app\js\editProduct.js" />
     <Content Include="app\js\app.js" />
+    <Content Include="edit-product.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
